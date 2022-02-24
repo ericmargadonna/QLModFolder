@@ -1,0 +1,129 @@
+windowDef Desktop
+{
+	rect	0,0,640,480
+	visible	1
+	nocursor	1
+	menugui	0
+	definevec4	"ws_on"	1,0.5,0,1
+	definevec4	"ws_off"	0.658,0.639,0.376,0.6
+	definevec4	"ws_glowon"	0.7,0.8,0.5,1
+	definevec4	"ws_glowoff"	0.7,0.8,0.5,0
+	definevec4	"ws_grey"	0.190,0.284,0.168,0.6
+	definevec4	"typecolor"	0.866,0.921,0.764,1
+	definevec4	"typecolor_strogg"	0.988,1,0.784,1
+	definevec4	"healthicon"	0.658,0.639,0.376,0.6
+	definevec4	"armoricon"	0.658,0.639,0.376,0.6
+	definevec4	"healthicon_mp"	0.980,0.168,0.0196,0.8
+	definevec4	"armoricon_mp"	0.968,0.752,0.0156,0.8
+	definevec4	"white"	1,1,1,1
+	float	"objdone"	0
+	float	"weapswitch"	0
+	float	"teamstrogg"	0
+	float	"hidden"	0
+	float	"deathCount"	0
+	definefloat	"showGunInfo"	1
+	definefloat	"switchLeft"	(640-((gui::weaponcount*30)-2
+	windowDef ViewComments
+	{
+		rect	2, 5, 638, 200
+		backcolor	0, 0, 0, 0
+		forecolor	0.9, 0.9, 0.0, 0.9
+		visible	0
+		textscale	0.25
+		text	"gui::viewcomments"
+	}
+	windowDef BgSOUND
+	{
+		rect	0,0,128,64
+		background	"gfx/guis/soundmeter/audiobg"
+		matcolor	1 ,1 ,1 ,1
+		visible	("gui::s_debug" == 1)
+	}
+	windowDef OverlaySOUND
+	{
+		rect	0 ,0 ,128 ,64
+		background	"gfx/guis/soundmeter/audioverlay"
+		matcolor	1 ,1 ,1 ,1
+		visible	0
+	}
+	windowDef p_health
+	{
+		rect	0,0,640,480
+		visible	("gui::mp" == 0 )
+		windowDef health_backbar
+		{
+			rect	190,420,125,59
+			visible	1
+			background	"gfx/guis/hud/backbar"
+			matcolor	0,0,0,0.5
+			shear	0,-.22
+		}
+		windowDef health_valbar
+		{
+			rect	190,420,125,59
+			visible	1
+			background	"gfx/guis/hud/valbar"
+			matcolor	0.701,0.815,0.431,0.2
+			shear	0,-.22
+		}
+		windowDef health_ekg
+		{
+			rect	190,420,125,59
+			visible	1
+			background	"gfx/guis/hud/ekg"
+			matcolor	0.0862,0.105,0.0549,1
+			shear	0,-.22
+		}
+		windowDef p_health_val
+		{
+			rect	310 - ( "gui::player_healthpct" * 115 ),420,115,59
+			visible	1
+			shear	0,-.22
+			windowDef health_val
+			{
+				rect	-120 + ( "gui::player_healthpct" * 115 ),0,125,59
+				visible	1
+				background	"gfx/guis/hud/valbar"
+				matcolor	0.701,0.815,0.431,0.35
+				shear	0,-.22
+			}
+		}
+	}
+	windowDef fade
+	{
+		rect	0,0,640,480
+		backcolor	0,0,0,0
+		visible	1
+	}
+	windowDef BattleBackground
+	{
+		rect	0,0,640,480
+		visible	1
+		backcolor	0.498,0.247,0.247,0.560
+		sliderDef e_card1
+		{
+			rect	74,74,123,150
+			visible	1
+		}
+		sliderDef e_card2
+		{
+			rect	205,70,123,149
+			visible	1
+		}
+		sliderDef e_card3
+		{
+			rect	324,69,123,149
+			visible	1
+		}
+		sliderDef e_card4
+		{
+			rect	443,69,123,149
+			visible	1
+		}
+		sliderDef p_card1
+		{
+			rect	268,277,123,149
+			visible	1
+		}
+	}
+}

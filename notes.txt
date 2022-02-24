@@ -1,0 +1,6 @@
+initialized variable for cardbattlehud in player.h
+added reference to cardbattlehud in the player.def file under Player Entity Definition
+added references to and loaded new cardbattlehud in player.cpp around line 1855, in the spawn function
+
+many of my goals seem to be accomplishable though the scripts/NamedEvents in the gui editor
+These are called on through gui->HandleNamedEvent()
