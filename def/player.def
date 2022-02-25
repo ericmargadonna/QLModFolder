@@ -608,7 +608,7 @@ entityDef player_marine
 	"wristcomm"						"guis/wristcomm.gui"
 
 	//Eric Margadonna - Quakelanes
-	"cardbattlehud"					"guis/cardbattle.gui"
+	"cardbattlehud"						"guis/cardbattle.gui"
 
 	"blink_min"						"0.5"
 	"blink_max"						"4.8"
