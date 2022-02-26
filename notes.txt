@@ -26,3 +26,17 @@ Notes:
 
     -For the behavior/logic aspect of the mod, I think I will have to create a few new SysCmds
      that handle's the calling up of the battle gui and dealing with damage/health
+
+    -In gui scripts:
+        onAction
+        {
+            consoleCMD "map game/airdefense1" ;
+
+            //This sets the command
+            
+            
+            set "cmd" "play main_menu_selection" ;
+
+            //And this runs it, I have to look into how to create this
+            //in a custom gui
+        }
