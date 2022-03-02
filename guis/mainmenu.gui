@@ -479,9 +479,9 @@ windowDef Desktop
 			set "main_b_settings::visible" "1" ;
 			set "main_b_exit::visible" "1" ;
 			
-			set "main_t_b1::text" "#str_200000" ;
-			set "main_t_b2::text" "#str_200001" ;
-			set "main_t_b3::text" "#str_200002" ;
+			//set "main_t_b1::text" "#str_200000" ;
+			//set "main_t_b2::text" "#str_200001" ;
+			//set "main_t_b3::text" "#str_200002" ;
 			
 			set "desktop::music" "0" ;
 		} else if ("gui::ingame" == 1 && "desktop::curr" != 16) {
@@ -807,7 +807,7 @@ windowDef Desktop
 			visible	1
 			windowDef q4logo
 			{
-				rect	23,99,110,110
+				rect	440,140,190,190
 				visible	1
 				background	"gfx/guis/mainmenu/q4logo"
 				matcolor	1,1,1,1
@@ -815,23 +815,21 @@ windowDef Desktop
 			windowDef q4text
 			{
 				rect	9,87,548,143
-				visible	1
-				background	"gfx/guis/mainmenu/q4text"
-				matcolor	1,1,1,1
+				visible	0
 				forecolor	1,1,1,1
 				text	""
 				textscale	1
 			}
 			windowDef main_b1
 			{
-				rect	71,215,413,52
+				rect	20,207,413,52
 				visible	1
 				background	"gfx/guis/mainmenu/b1_dark"
 				matcolor	0.5,0,0.5,0.4
 			}
 			windowDef main_b2
 			{
-				rect	70,245,413,52
+				rect	19,237,413,52
 				visible	1
 				background	"gfx/guis/mainmenu/b1_dark"
 				matcolor	0.5,0,0.5,0.4
@@ -845,7 +843,7 @@ windowDef Desktop
 			}
 			windowDef main_b4
 			{
-				rect	71,275,413,52
+				rect	20,267,413,52
 				visible	1
 				background	"gfx/guis/mainmenu/b1_dark"
 				matcolor	0.5,0,0.5,0.4
@@ -859,14 +857,14 @@ windowDef Desktop
 			}
 			windowDef main_b1_corner
 			{
-				rect	103,234,12,12
+				rect	52,226,12,12
 				visible	1
 				background	"gfx/guis/mainmenu/corner"
 				matcolor	0.5,0,0.5,0.4
 			}
 			windowDef main_b2_corner
 			{
-				rect	103,264,12,12
+				rect	52,256,12,12
 				visible	1
 				background	"gfx/guis/mainmenu/corner"
 				matcolor	0.5,0,0.5,0.4
@@ -880,7 +878,7 @@ windowDef Desktop
 			}
 			windowDef main_b4_corner
 			{
-				rect	103,294,12,12
+				rect	52,286,12,12
 				visible	1
 				background	"gfx/guis/mainmenu/corner"
 				matcolor	0.5,0,0.5,0.4
@@ -894,20 +892,20 @@ windowDef Desktop
 			}
 			windowDef main_t_b1
 			{
-				rect	115,227,314,23
+				rect	64,219,314,23
 				visible	1
 				forecolor	1,1,1,0.8
-				text	"#str_200000"
-				textscale	.33
+				text	"Begin Your Journey..."
+				textscale	0.33
 				font	"fonts/marine"
 			}
 			windowDef main_t_b2
 			{
-				rect	115,257,314,23
+				rect	64,249,314,23
 				visible	1
 				forecolor	1,1,1,0.8
-				text	"#str_200001"
-				textscale	.33
+				text	"Load Game"
+				textscale	0.33
 				font	"fonts/marine"
 			}
 			windowDef main_t_b3
@@ -921,11 +919,11 @@ windowDef Desktop
 			}
 			windowDef main_t_b4
 			{
-				rect	115,287,314,23
+				rect	64,279,314,23
 				visible	1
 				forecolor	1,1,1,0.8
-				text	"#str_200009"
-				textscale	.33
+				text	"Settings"
+				textscale	0.33
 				font	"fonts/marine"
 			}
 			windowDef main_t_b9
@@ -1016,6 +1014,15 @@ windowDef Desktop
 				text	"gui::motdMessage"
 				textscale	.22
 				font	"fonts/lowpixel"
+			}
+			windowDef qlText
+			{
+				rect	28,123,410,64
+				visible	1
+				forecolor	1,1,1,1
+				text	"QuakeLanes"
+				textscale	1
+				font	"fonts/r_strogg"
 			}
 		}
 		windowDef d_main
@@ -13102,7 +13109,7 @@ windowDef Desktop
 					rect	222,75,390,93
 					visible	1
 					forecolor	1,1,1,0
-					text	"QUAKE 4 is an id Software game and is powered by id Software's DOOM 3® technology. Production, development, and technical assistance have been provided by id Software, with specific contributions by:"
+					text	"QUAKE 4 is an id Software game and is powered by id Software's DOOM 3ï¿½ technology. Production, development, and technical assistance have been provided by id Software, with specific contributions by:"
 					textscale	0.25
 					font	"fonts/lowpixel"
 				}
@@ -13273,7 +13280,7 @@ windowDef Desktop
 					rect	222,78,390,93
 					visible	1
 					forecolor	1,1,1,0
-					text	"QUAKE 4 is an id Software game and is powered by id Software's DOOM 3® technology. Production, development, and technical assistance have been provided by id Software, with specific contributions by:"
+					text	"QUAKE 4 is an id Software game and is powered by id Software's DOOM 3ï¿½ technology. Production, development, and technical assistance have been provided by id Software, with specific contributions by:"
 					textscale	0.28
 					font	"fonts/strogg"
 				}
@@ -15241,7 +15248,7 @@ windowDef Desktop
 					rect	103,355,542,72
 					visible	1
 					forecolor	1,1,1,0
-					text	"Quake 4 uses Miles Sound System.\nCopyright © 1991-2003 by RAD Game Tools, Inc."
+					text	"Quake 4 uses Miles Sound System.\nCopyright ï¿½ 1991-2003 by RAD Game Tools, Inc."
 					textscale	.31
 					font	"fonts/lowpixel"
 				}
@@ -19981,7 +19988,7 @@ windowDef Desktop
 		}
 		windowDef main_b_newgame
 		{
-			rect	95,227,333,26
+			rect	44,219,333,26
 			visible	1
 
 			onMouseEnter {
@@ -20066,7 +20073,7 @@ windowDef Desktop
 		}
 		windowDef main_b_loadgame
 		{
-			rect	95,257,333,26
+			rect	44,249,333,26
 			visible	1
 
 			onMouseEnter {
@@ -20229,7 +20236,7 @@ windowDef Desktop
 		}
 		windowDef main_b_settings
 		{
-			rect	95,287,333,26
+			rect	44,279,333,26
 			visible	1
 
 			onMouseEnter {
