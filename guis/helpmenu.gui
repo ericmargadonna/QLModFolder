@@ -10,6 +10,10 @@ windowDef Desktop
 		namedEvent "showHelp";
 	}
 
+	onInit {
+		namedEvent "showHelp"
+	}
+
 	onNamedEvent hideHelp {
 		set "desktop::hidden" "1" ;
 		set "gradient::visible" "0" ;
