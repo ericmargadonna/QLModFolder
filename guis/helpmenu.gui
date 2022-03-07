@@ -1,0 +1,41 @@
+windowDef Desktop
+{
+	rect	0,0,640,480
+	visible	1
+	nocursor	1
+	menugui	1
+	float	"hidden"	0
+
+	onActivate {
+		namedEvent "showHelp";
+	}
+
+	onNamedEvent hideHelp {
+		set "desktop::hidden" "1" ;
+		set "gradient::visible" "0" ;
+		set "help1::visible" "0" ;		
+	}
+
+	onNamedEvent showHelp {
+		set "desktop::hidden" "0" ;
+		set "gradient::visible" "1" ;
+		set "help1::visible" "1" ;	
+	}
+
+	windowDef gradient
+	{
+		rect	-9,10,660,464
+		visible	1
+		background	"gfx/guis/mainmenu/scoregrad2"
+		matcolor	0,0,0,0.6
+	}
+	windowDef help1
+	{
+		rect	145,55,350,37
+		visible	1
+		forecolor	1,1,1,1
+		text	"Welcome to QuakeLanes"
+		textscale	0.5
+		font	"fonts/marine"
+	}
+}
