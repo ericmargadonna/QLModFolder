@@ -2518,7 +2518,7 @@ windowDef Desktop
 				rect	0,105,115,40
 				visible	1
 				forecolor	1,1,1,1
-				text	"gui::ec1health"
+				text	"gui::ec1_health"
 				textscale	0.4
 			}
 			windowDef attack
@@ -2526,7 +2526,7 @@ windowDef Desktop
 				rect	0,60,115,40
 				visible	1
 				forecolor	1,1,1,1
-				text	"gui::ec1attack"
+				text	"gui::ec1_attack"
 				textscale	0.4
 			}
 			windowDef title
@@ -2534,7 +2534,7 @@ windowDef Desktop
 				rect	0,25,115,40
 				visible	1
 				forecolor	1,1,1,1
-				text	"gui::ec1title"
+				text	"gui::ec1_title"
 				textscale	0.4
 			}
 		}
@@ -2548,7 +2548,7 @@ windowDef Desktop
 				rect	0,105,115,40
 				visible	1
 				forecolor	1,1,1,1
-				text	"gui::ec2health"
+				text	"gui::ec2_health"
 				textscale	0.4
 			}
 			windowDef attack
@@ -2556,7 +2556,7 @@ windowDef Desktop
 				rect	0,60,115,40
 				visible	1
 				forecolor	1,1,1,1
-				text	"gui::ec2attack"
+				text	"gui::ec2_attack"
 				textscale	0.4
 			}
 			windowDef title
@@ -2564,7 +2564,7 @@ windowDef Desktop
 				rect	0,25,115,40
 				visible	1
 				forecolor	1,1,1,1
-				text	"gui::ec2title"
+				text	"gui::ec2_title"
 				textscale	0.4
 			}
 		}
@@ -2578,7 +2578,7 @@ windowDef Desktop
 				rect	0,105,115,40
 				visible	1
 				forecolor	1,1,1,1
-				text	"gui::ec3health"
+				text	"gui::ec3_health"
 				textscale	0.4
 			}
 			windowDef attack
@@ -2586,7 +2586,7 @@ windowDef Desktop
 				rect	0,60,115,40
 				visible	1
 				forecolor	1,1,1,1
-				text	"gui::ec3attack"
+				text	"gui::ec3_attack"
 				textscale	0.4
 			}
 			windowDef title
@@ -2594,7 +2594,7 @@ windowDef Desktop
 				rect	0,25,115,40
 				visible	1
 				forecolor	1,1,1,1
-				text	"gui::ec3title"
+				text	"gui::ec3_title"
 				textscale	0.4
 			}
 		}
@@ -2608,7 +2608,7 @@ windowDef Desktop
 				rect	0,105,115,40
 				visible	1
 				forecolor	1,1,1,1
-				text	"gui::pc1health"
+				text	"gui::pc1_health"
 				textscale	0.4
 			}
 			windowDef attack
@@ -2616,7 +2616,7 @@ windowDef Desktop
 				rect	0,60,115,40
 				visible	1
 				forecolor	1,1,1,1
-				text	"gui::pc1attack"
+				text	"gui::pc1_attack"
 				textscale	0.4
 			}
 			windowDef title
@@ -2624,7 +2624,7 @@ windowDef Desktop
 				rect	0,25,115,40
 				visible	1
 				forecolor	1,1,1,1
-				text	"gui::pc1title"
+				text	"gui::pc1_title"
 				textscale	0.4
 			}
 		}
@@ -2638,7 +2638,7 @@ windowDef Desktop
 				rect	0,105,115,40
 				visible	1
 				forecolor	1,1,1,1
-				text	"gui::pc2health"
+				text	"gui::pc2_health"
 				textscale	0.4
 			}
 			windowDef attack
@@ -2646,7 +2646,7 @@ windowDef Desktop
 				rect	0,60,115,40
 				visible	1
 				forecolor	1,1,1,1
-				text	"gui::pc2attack"
+				text	"gui::pc2_attack"
 				textscale	0.4
 			}
 			windowDef title
@@ -2654,7 +2654,7 @@ windowDef Desktop
 				rect	0,25,115,40
 				visible	1
 				forecolor	1,1,1,1
-				text	"gui::pc2title"
+				text	"gui::pc2_title"
 				textscale	0.4
 			}
 		}
@@ -2668,7 +2668,7 @@ windowDef Desktop
 				rect	0,105,115,40
 				visible	1
 				forecolor	1,1,1,1
-				text	"gui::pc3health"
+				text	"gui::pc3_health"
 				textscale	0.4
 			}
 			windowDef attack
@@ -2676,7 +2676,7 @@ windowDef Desktop
 				rect	0,60,115,40
 				visible	1
 				forecolor	1,1,1,1
-				text	"gui::pc3attack"
+				text	"gui::pc3_attack"
 				textscale	0.4
 			}
 			windowDef title
@@ -2684,7 +2684,7 @@ windowDef Desktop
 				rect	0,25,115,40
 				visible	1
 				forecolor	1,1,1,1
-				text	"gui::pc3title"
+				text	"gui::pc3_title"
 				textscale	0.4
 			}
 		}
