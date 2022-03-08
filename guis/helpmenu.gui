@@ -3,16 +3,7 @@ windowDef Desktop
 	rect	0,0,640,480
 	visible	1
 	nocursor	1
-	menugui	1
 	float	"hidden"	0
-
-	onActivate {
-		namedEvent "showHelp";
-	}
-
-	onInit {
-		namedEvent "showHelp"
-	}
 
 	onNamedEvent hideHelp {
 		set "desktop::hidden" "1" ;

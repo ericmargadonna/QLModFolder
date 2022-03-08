@@ -603,13 +603,13 @@ entityDef player_marine
 
 	"hud"							"guis/hud.gui"
 	"mphud"							"guis/mphud.gui" // mphud is overlayed on hud in multiplayer
-	"helpmenu"						"guis/helpmenu.gui" //QL Help Menu
 	"cursor"						"guis/cursor.gui"
 	"cinematicHud"					"guis/cinematic.gui"
 	"wristcomm"						"guis/wristcomm.gui"
 
 	//Eric Margadonna - Quakelanes
-	"cardbattlehud"						"guis/cardbattle.gui"
+	"cardbattlehud"					"guis/cardbattle.gui"
+	"helpmenu"						"guis/helpmenu.gui" //QL Help Menu
 
 	"blink_min"						"0.5"
 	"blink_max"						"4.8"
