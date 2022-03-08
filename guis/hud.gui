@@ -2519,7 +2519,7 @@ windowDef Desktop
 				visible	1
 				forecolor	1,1,1,1
 				text	"gui::ec1_health"
-				textscale	0.4
+				textscale	0.2
 			}
 			windowDef attack
 			{
@@ -2527,7 +2527,7 @@ windowDef Desktop
 				visible	1
 				forecolor	1,1,1,1
 				text	"gui::ec1_attack"
-				textscale	0.4
+				textscale	0.2
 			}
 			windowDef title
 			{
@@ -2535,7 +2535,7 @@ windowDef Desktop
 				visible	1
 				forecolor	1,1,1,1
 				text	"gui::ec1_title"
-				textscale	0.4
+				textscale	0.2
 			}
 		}
 		windowDef e_card2
@@ -2549,7 +2549,7 @@ windowDef Desktop
 				visible	1
 				forecolor	1,1,1,1
 				text	"gui::ec2_health"
-				textscale	0.4
+				textscale	0.2
 			}
 			windowDef attack
 			{
@@ -2557,7 +2557,7 @@ windowDef Desktop
 				visible	1
 				forecolor	1,1,1,1
 				text	"gui::ec2_attack"
-				textscale	0.4
+				textscale	0.2
 			}
 			windowDef title
 			{
@@ -2565,7 +2565,7 @@ windowDef Desktop
 				visible	1
 				forecolor	1,1,1,1
 				text	"gui::ec2_title"
-				textscale	0.4
+				textscale	0.2
 			}
 		}
 		windowDef e_card3
@@ -2579,7 +2579,7 @@ windowDef Desktop
 				visible	1
 				forecolor	1,1,1,1
 				text	"gui::ec3_health"
-				textscale	0.4
+				textscale	0.2
 			}
 			windowDef attack
 			{
@@ -2587,7 +2587,7 @@ windowDef Desktop
 				visible	1
 				forecolor	1,1,1,1
 				text	"gui::ec3_attack"
-				textscale	0.4
+				textscale	0.2
 			}
 			windowDef title
 			{
@@ -2595,7 +2595,7 @@ windowDef Desktop
 				visible	1
 				forecolor	1,1,1,1
 				text	"gui::ec3_title"
-				textscale	0.4
+				textscale	0.2
 			}
 		}
 		windowDef p_card1
@@ -2609,7 +2609,7 @@ windowDef Desktop
 				visible	1
 				forecolor	1,1,1,1
 				text	"gui::pc1_health"
-				textscale	0.4
+				textscale	0.2
 			}
 			windowDef attack
 			{
@@ -2617,7 +2617,7 @@ windowDef Desktop
 				visible	1
 				forecolor	1,1,1,1
 				text	"gui::pc1_attack"
-				textscale	0.4
+				textscale	0.2
 			}
 			windowDef title
 			{
@@ -2625,7 +2625,7 @@ windowDef Desktop
 				visible	1
 				forecolor	1,1,1,1
 				text	"gui::pc1_title"
-				textscale	0.4
+				textscale	0.2
 			}
 		}
 		windowDef p_card2
@@ -2639,7 +2639,7 @@ windowDef Desktop
 				visible	1
 				forecolor	1,1,1,1
 				text	"gui::pc2_health"
-				textscale	0.4
+				textscale	0.2
 			}
 			windowDef attack
 			{
@@ -2647,7 +2647,7 @@ windowDef Desktop
 				visible	1
 				forecolor	1,1,1,1
 				text	"gui::pc2_attack"
-				textscale	0.4
+				textscale	0.2
 			}
 			windowDef title
 			{
@@ -2655,7 +2655,7 @@ windowDef Desktop
 				visible	1
 				forecolor	1,1,1,1
 				text	"gui::pc2_title"
-				textscale	0.4
+				textscale	0.2
 			}
 		}
 		windowDef p_card3
@@ -2669,7 +2669,7 @@ windowDef Desktop
 				visible	1
 				forecolor	1,1,1,1
 				text	"gui::pc3_health"
-				textscale	0.4
+				textscale	0.2
 			}
 			windowDef attack
 			{
@@ -2677,7 +2677,7 @@ windowDef Desktop
 				visible	1
 				forecolor	1,1,1,1
 				text	"gui::pc3_attack"
-				textscale	0.4
+				textscale	0.2
 			}
 			windowDef title
 			{
@@ -2685,7 +2685,7 @@ windowDef Desktop
 				visible	1
 				forecolor	1,1,1,1
 				text	"gui::pc3_title"
-				textscale	0.4
+				textscale	0.2
 			}
 		}
 	}
