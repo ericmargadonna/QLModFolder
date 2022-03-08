@@ -106,13 +106,13 @@ entityDef weapon_blaster
 
 	// -------------------- Recoil and Muzzle Kick ---------------------------------------
 
-	"muzzle_kick_time"			"0.1"
-	"muzzle_kick_maxtime"		"0.2"
-	"muzzle_kick_angles"		"-5 0 0"
-	"muzzle_kick_offset"		"2 0 0"
+	"muzzle_kick_time"			"0"
+	"muzzle_kick_maxtime"		"0"
+	"muzzle_kick_angles"		"0 0 0"
+	"muzzle_kick_offset"		"0 0 0"
 
-	"recoilTime"				"100"
-	"recoilAngles"				"-2 0 0"
+	"recoilTime"				"0"
+	"recoilAngles"				"0 0 0"
 	
 	// ---------------------------- Flashlight ---------------------------------------
 	
@@ -313,7 +313,7 @@ entityDef projectile_blaster_charged
 entityDef damage_blaster
 {
 	"inherit"					"damage_bullet"
-	"damage"					"0"
+	"damage"					"1"
 
 	"fx_wound"					"effects/wounds/energy.fx"
 

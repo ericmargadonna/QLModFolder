@@ -2483,26 +2483,210 @@ windowDef Desktop
 	{
 		rect	0,0,640,480
 		visible	0
-		windowDef e_card1
+		windowDef gradient
 		{
-			rect	260,55,115,150
+			rect	-56,-46,743,581
 			visible	1
-			backcolor	1,0,0,1
-		}
-		windowDef p_card1
-		{
-			rect	260,230,115,150
-			visible	1
-			backcolor	0,1,0,1
+			background	"gfx/guis/mainmenu/scoregrad2"
+			matcolor	0,0,0,0.6
 		}
 		windowDef q4text
 		{
 			rect	0,-6,401,62
-			visible	0
+			visible	1
 			forecolor	1,1,1,1
 			text	"QuakeLanes"
 			textscale	0.8
 			font	"fonts/r_strogg"
+		}
+		windowDef currentMover
+		{
+			rect	0,440,235,40
+			visible	1
+			forecolor	1,1,1,1
+			text	"gui::currentMover"
+			textscale	0.6
+			font	"fonts/r_strogg"
+		}
+		windowDef e_card1
+		{
+			rect	110,55,115,150
+			visible	1
+			backcolor	1,0,0,1
+			windowDef health
+			{
+				rect	0,105,115,40
+				visible	1
+				forecolor	1,1,1,1
+				text	"gui::ec1health"
+				textscale	0.4
+			}
+			windowDef attack
+			{
+				rect	0,60,115,40
+				visible	1
+				forecolor	1,1,1,1
+				text	"gui::ec1attack"
+				textscale	0.4
+			}
+			windowDef title
+			{
+				rect	0,25,115,40
+				visible	1
+				forecolor	1,1,1,1
+				text	"gui::ec1title"
+				textscale	0.4
+			}
+		}
+		windowDef e_card2
+		{
+			rect	260,55,115,150
+			visible	1
+			backcolor	1,0,0,1
+			windowDef health
+			{
+				rect	0,105,115,40
+				visible	1
+				forecolor	1,1,1,1
+				text	"gui::ec2health"
+				textscale	0.4
+			}
+			windowDef attack
+			{
+				rect	0,60,115,40
+				visible	1
+				forecolor	1,1,1,1
+				text	"gui::ec2attack"
+				textscale	0.4
+			}
+			windowDef title
+			{
+				rect	0,25,115,40
+				visible	1
+				forecolor	1,1,1,1
+				text	"gui::ec2title"
+				textscale	0.4
+			}
+		}
+		windowDef e_card3
+		{
+			rect	410,55,115,150
+			visible	1
+			backcolor	1,0,0,1
+			windowDef health
+			{
+				rect	0,105,115,40
+				visible	1
+				forecolor	1,1,1,1
+				text	"gui::ec3health"
+				textscale	0.4
+			}
+			windowDef attack
+			{
+				rect	0,60,115,40
+				visible	1
+				forecolor	1,1,1,1
+				text	"gui::ec3attack"
+				textscale	0.4
+			}
+			windowDef title
+			{
+				rect	0,25,115,40
+				visible	1
+				forecolor	1,1,1,1
+				text	"gui::ec3title"
+				textscale	0.4
+			}
+		}
+		windowDef p_card1
+		{
+			rect	110,220,115,150
+			visible	1
+			backcolor	0.501,1,0,1
+			windowDef health
+			{
+				rect	0,105,115,40
+				visible	1
+				forecolor	1,1,1,1
+				text	"gui::pc1health"
+				textscale	0.4
+			}
+			windowDef attack
+			{
+				rect	0,60,115,40
+				visible	1
+				forecolor	1,1,1,1
+				text	"gui::pc1attack"
+				textscale	0.4
+			}
+			windowDef title
+			{
+				rect	0,25,115,40
+				visible	1
+				forecolor	1,1,1,1
+				text	"gui::pc1title"
+				textscale	0.4
+			}
+		}
+		windowDef p_card2
+		{
+			rect	260,220,115,150
+			visible	1
+			backcolor	0.501,1,0,1
+			windowDef health
+			{
+				rect	0,105,115,40
+				visible	1
+				forecolor	1,1,1,1
+				text	"gui::pc2health"
+				textscale	0.4
+			}
+			windowDef attack
+			{
+				rect	0,60,115,40
+				visible	1
+				forecolor	1,1,1,1
+				text	"gui::pc2attack"
+				textscale	0.4
+			}
+			windowDef title
+			{
+				rect	0,25,115,40
+				visible	1
+				forecolor	1,1,1,1
+				text	"gui::pc2title"
+				textscale	0.4
+			}
+		}
+		windowDef p_card3
+		{
+			rect	410,220,115,150
+			visible	1
+			backcolor	0.501,1,0,1
+			windowDef health
+			{
+				rect	0,105,115,40
+				visible	1
+				forecolor	1,1,1,1
+				text	"gui::pc3health"
+				textscale	0.4
+			}
+			windowDef attack
+			{
+				rect	0,60,115,40
+				visible	1
+				forecolor	1,1,1,1
+				text	"gui::pc3attack"
+				textscale	0.4
+			}
+			windowDef title
+			{
+				rect	0,25,115,40
+				visible	1
+				forecolor	1,1,1,1
+				text	"gui::pc3title"
+				textscale	0.4
+			}
 		}
 	}
 }
