@@ -2442,13 +2442,13 @@ windowDef Desktop
 			rect	115,85,422,51
 			visible	1
 			forecolor	1,1,1,1
-			text	"This is a Rouge-like Deck-Building Lane-Fighting Card Game in Quake 4!"
+			text	"This is a Lane-Fighting Card Game in Quake 4!"
 			textscale	0.3
 			font	"fonts/lowpixel"
 		}
 		windowDef helptext2
 		{
-			rect	115,145,422,51
+			rect	115,116,422,44
 			visible	1
 			forecolor	1,1,1,1
 			text	"Think of this as a single-player game mode that replaces FPS combat with a lane fighter."
@@ -2457,7 +2457,7 @@ windowDef Desktop
 		}
 		windowDef helptext3
 		{
-			rect	106,205,422,69
+			rect	115,172,422,67
 			visible	1
 			forecolor	1,1,1,1
 			text	"Whenever you hit, or get hit, a lane fighting GUI will open and you'll have to play the 'minigame' to kill all the enemies and advance! "
@@ -2471,6 +2471,15 @@ windowDef Desktop
 			forecolor	1,1,1,1
 			text	"Press 'L' to toggle this message"
 			textscale	0.2
+			font	"fonts/lowpixel"
+		}
+		windowDef helptext4
+		{
+			rect	115,249,422,89
+			visible	1
+			forecolor	1,1,1,1
+			text	"This is very much a work in progress, and some things are kinda buggy or jarring. For example, the moves in the card game happen instantly so it can be hard to track."
+			textscale	0.3
 			font	"fonts/lowpixel"
 		}
 	}
@@ -2514,10 +2523,8 @@ windowDef Desktop
 			visible	1
 			backcolor	1,0,0,1
 			windowDef health
-
-			//float "gui::ec1_alive" 0
 			{
-				rect	0,105,115,40
+				rect	0,105,57,40
 				visible	1
 				forecolor	1,1,1,1
 				text	"gui::ec1_health"
@@ -2525,7 +2532,7 @@ windowDef Desktop
 			}
 			windowDef attack
 			{
-				rect	0,60,115,40
+				rect	0,60,57,40
 				visible	1
 				forecolor	1,1,1,1
 				text	"gui::ec1_attack"
@@ -2539,6 +2546,22 @@ windowDef Desktop
 				text	"gui::ec1_title"
 				textscale	0.2
 			}
+			windowDef healthtext1
+			{
+				rect	57,105,57,40
+				visible	1
+				forecolor	1,1,1,1
+				text	"health"
+				textscale	0.2
+			}
+			windowDef attacktext1
+			{
+				rect	57,60,57,40
+				visible	1
+				forecolor	1,1,1,1
+				text	attack
+				textscale	0.2
+			}
 		}
 		windowDef e_card2
 		{
@@ -2546,7 +2569,6 @@ windowDef Desktop
 			visible	1
 			backcolor	1,0,0,1
 			windowDef health
-			//float "gui::ec2_alive" 0
 			{
 				rect	0,105,115,40
 				visible	1
@@ -2570,6 +2592,22 @@ windowDef Desktop
 				text	"gui::ec2_title"
 				textscale	0.2
 			}
+			windowDef healthtext2
+			{
+				rect	57,105,57,40
+				visible	1
+				forecolor	1,1,1,1
+				text	"health"
+				textscale	0.2
+			}
+			windowDef attacktext2
+			{
+				rect	57,60,57,40
+				visible	1
+				forecolor	1,1,1,1
+				text	attack
+				textscale	0.2
+			}
 		}
 		windowDef e_card3
 		{
@@ -2577,7 +2615,6 @@ windowDef Desktop
 			visible	1
 			backcolor	1,0,0,1
 			windowDef health
-			//float "gui::ec3_alive" 0
 			{
 				rect	0,105,115,40
 				visible	1
@@ -2601,14 +2638,29 @@ windowDef Desktop
 				text	"gui::ec3_title"
 				textscale	0.2
 			}
+			windowDef attacktext3
+			{
+				rect	57,60,57,40
+				visible	1
+				forecolor	1,1,1,1
+				text	attack
+				textscale	0.2
+			}
+			windowDef healthtext3
+			{
+				rect	57,105,57,40
+				visible	1
+				forecolor	1,1,1,1
+				text	"health"
+				textscale	0.2
+			}
 		}
 		windowDef p_card1
 		{
 			rect	110,220,115,150
 			visible	1
-			backcolor	0.501,1,0,1
+			backcolor	0,0.501,0,1
 			windowDef health
-			//float "gui::pc1_alive" 0
 			{
 				rect	0,105,115,40
 				visible	1
@@ -2632,14 +2684,29 @@ windowDef Desktop
 				text	"gui::pc1_title"
 				textscale	0.2
 			}
+			windowDef healthtext4
+			{
+				rect	57,105,57,40
+				visible	1
+				forecolor	1,1,1,1
+				text	"health"
+				textscale	0.2
+			}
+			windowDef attacktext4
+			{
+				rect	57,60,57,40
+				visible	1
+				forecolor	1,1,1,1
+				text	attack
+				textscale	0.2
+			}
 		}
 		windowDef p_card2
 		{
 			rect	260,220,115,150
 			visible	1
-			backcolor	0.501,1,0,1
+			backcolor	0,0.501,0,1
 			windowDef health
-			//float "gui::pc2_alive" 0
 			{
 				rect	0,105,115,40
 				visible	1
@@ -2663,14 +2730,29 @@ windowDef Desktop
 				text	"gui::pc2_title"
 				textscale	0.2
 			}
+			windowDef healthtext5
+			{
+				rect	57,105,57,40
+				visible	1
+				forecolor	1,1,1,1
+				text	"health"
+				textscale	0.2
+			}
+			windowDef attacktext5
+			{
+				rect	57,60,57,40
+				visible	1
+				forecolor	1,1,1,1
+				text	"attack"
+				textscale	0.2
+			}
 		}
 		windowDef p_card3
 		{
 			rect	410,220,115,150
 			visible	1
-			backcolor	0.501,1,0,1
+			backcolor	0,0.501,0,1
 			windowDef health
-			//float "gui::pc3_alive" 0
 			{
 				rect	0,105,115,40
 				visible	1
@@ -2694,6 +2776,95 @@ windowDef Desktop
 				text	"gui::pc3_title"
 				textscale	0.2
 			}
+			windowDef healthtext6
+			{
+				rect	57,105,57,40
+				visible	1
+				forecolor	1,1,1,1
+				text	"health"
+				textscale	0.2
+			}
+			windowDef attacktext6
+			{
+				rect	57,60,57,40
+				visible	1
+				forecolor	1,1,1,1
+				text	attack
+				textscale	0.2
+			}
+		}
+		windowDef control2
+		{
+			rect	300,372,22,24
+			visible	1
+			text	W
+			textscale	.4
+		}
+		windowDef control3
+		{
+			rect	450,372,22,23
+			visible	1
+			text	D
+			textscale	.4
+		}
+		windowDef control1
+		{
+			rect	150,372,22,23
+			visible	1
+			text	A
+			textscale	.4
+		}
+		windowDef stext1
+		{
+			rect	364,424,77,22
+			visible	1
+			text	"S-Shift"
+			forecolor	1,1,1,1
+			textscale	.35
+		}
+		windowDef stext2
+		{
+			rect	429,424,76,21
+			visible	1
+			text	Cards
+			forecolor	1,1,1,1
+			textscale	.35
+		}
+		windowDef spacetext
+		{
+			rect	364,446,117,21
+			visible	1
+			text	"Space - Skip"
+			forecolor	1,1,1,1
+			textscale	.35
+		}
+		windowDef numPlayerCards
+		{
+			rect	10,275,75,48
+			visible	1
+			text	"gui::numPlayerCards"
+			textscale	0.4
+		}
+		windowDef numEnemyCards
+		{
+			rect	10,110,74,48
+			visible	1
+			text	"gui::numEnemyCards"
+			textscale	.5
+		}
+		windowDef playerCardsText
+		{
+			rect	10,315,75,48
+			visible	1
+			text	"Cards\nLeft"
+			textscale	0.4
+		}
+		windowDef enemyCardsText
+		{
+			rect	10,150,92,48
+			visible	1
+			text	"Enemies\nLeft"
+			textscale	.4
 		}
 	}
 }
