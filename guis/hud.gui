@@ -2515,7 +2515,7 @@ windowDef Desktop
 			backcolor	1,0,0,1
 			windowDef health
 
-			float "gui::ec1_alive" 0
+			//float "gui::ec1_alive" 0
 			{
 				rect	0,105,115,40
 				visible	1
@@ -2546,7 +2546,7 @@ windowDef Desktop
 			visible	1
 			backcolor	1,0,0,1
 			windowDef health
-			float "gui::ec2_alive" 0
+			//float "gui::ec2_alive" 0
 			{
 				rect	0,105,115,40
 				visible	1
@@ -2577,7 +2577,7 @@ windowDef Desktop
 			visible	1
 			backcolor	1,0,0,1
 			windowDef health
-			float "gui::ec3_alive" 0
+			//float "gui::ec3_alive" 0
 			{
 				rect	0,105,115,40
 				visible	1
@@ -2608,7 +2608,7 @@ windowDef Desktop
 			visible	1
 			backcolor	0.501,1,0,1
 			windowDef health
-			float "gui::pc1_alive" 0
+			//float "gui::pc1_alive" 0
 			{
 				rect	0,105,115,40
 				visible	1
@@ -2639,7 +2639,7 @@ windowDef Desktop
 			visible	1
 			backcolor	0.501,1,0,1
 			windowDef health
-			float "gui::pc2_alive" 0
+			//float "gui::pc2_alive" 0
 			{
 				rect	0,105,115,40
 				visible	1
@@ -2670,7 +2670,7 @@ windowDef Desktop
 			visible	1
 			backcolor	0.501,1,0,1
 			windowDef health
-			float "gui::pc3_alive" 0
+			//float "gui::pc3_alive" 0
 			{
 				rect	0,105,115,40
 				visible	1
